@@ -41,3 +41,7 @@ Preventing the pigment that has already been made from reaching the surface cell
 === 4. Accelerating Cell Turnover (Shedding)
 Speeding up the removal of existing pigment-laden cells.
 - *Examples:* Retinoids (as discussed in Area 11), Alpha Hydroxy Acids (AHAs like Glycolic Acid).
+
+=== 5. Plasmin Inhibition / Vascular Component
+Targeting the vascular and inflammatory triggers of pigmentation (esp. Melasma).
+- *Tranexamic Acid (TXA):* Oral TXA is effective. Topical efficacy is debated due to its zwitterionic (charged) structure limiting skin penetration, though some studies show benefit. Inhibits plasmin from triggering arachidonic acid (inflammatory pathway).

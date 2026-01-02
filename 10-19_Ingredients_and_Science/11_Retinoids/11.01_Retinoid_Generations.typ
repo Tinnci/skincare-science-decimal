@@ -22,11 +22,11 @@ Synthetic retinoids where the polar end group is replaced by an aromatic ring.
 
 === Third Generation (Poly-aromatic)
 Designed to be more receptor-selective and stable.
-- *Adapalene:* Selective for RAR-beta and RAR-gamma. Highly stable and commonly used for acne.
-- *Tazarotene:* Selective for RAR-beta and RAR-gamma. Highly potent, often used for hyperpigmentation and psoriasis.
+- *Adapalene:* Selective for RAR-beta and RAR-gamma. Contains an adamantane group that makes it lipophilic, allowing it to target hair follicles (excellent for acne). Stable binding with Benzoyl Peroxide.
+- *Tazarotene:* Selective for RAR-beta and RAR-gamma (Prodrug: converts to tazarotenic acid). Highly potent, often used for hyperpigmentation and psoriasis.
 
 === Fourth Generation
-- *Trifarotene:* The most recent FDA-approved retinoid. Highly selective for the *RAR-gamma* subtype, which is the predominant receptor in the epidermis.
+- *Trifarotene:* The most recent FDA-approved retinoid. Highly selective (20-fold) for the *RAR-gamma* subtype. Designed for rapid hepatic metabolism, making it safe for large surface areas (approved for Truncal Acne).
 
 === "Fifth Generation" (Marketing Terminology)
 In the cosmetic industry, certain new derivatives like *Hydroxypinacolone Retinoate (HPR)* or "Granactive Retinoid" are sometimes marketed as "fifth generation," though this is not yet a formal scientific classification. These are designed to bind directly to receptors while minimizing irritation.

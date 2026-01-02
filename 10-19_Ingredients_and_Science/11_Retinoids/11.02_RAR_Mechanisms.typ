@@ -28,6 +28,15 @@ There are three primary subtypes of RARs located in the skin:
   [Trifarotene], [Highly Selective (γ)], [Acne, Truncal acne]
 )
 
+== Selectivity vs. Irritation
+
+A common misconception is that *higher selectivity* automatically equates to *lower irritation*. However, clinical evidence challenges this:
+- *Adapalene* (Selective $beta, gamma$) is generally *less* irritating than Tretinoin (Pan-agonist), fitting the theory.
+- *Tazarotene* (Selective $beta, gamma$) is often observed to be *more* irritating than Tretinoin, contradicting the theory.
+- *Trifarotene* (Highly Selective $gamma$) appears less irritating, but is used at a much lower concentration ($0.005\%$).
+
+This suggests that irritation is likely linked to the mechanism of action itself (RAR-$gamma$ activation) and formulation factors, rather than just "off-target" effects on other receptors.
+
 == Association with Hyperpigmentation
 
 Both *RARα* and *RARγ* are significantly associated with the treatment of hyperpigmentation:

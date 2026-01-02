@@ -29,3 +29,10 @@ Critics often claim "retinol doesn't work" because peer-reviewed, double-blind, 
 - *Scientific Reasoning:* We understand the pharmacology (prodrug conversion).
 - *Extrapolation:* If it works in vitro and ex vivo, and produces the same molecular markers as the drug version, it likely works on the face.
 - *Mechanistic Evidence:* The specific side effect "retinization" is a physical proof of receptor activation.
+
+== The "Compounding" Middle-Ground
+
+Compounded prescriptions (custom-mixed by pharmacies) are often presented as the "best of both worlds," combining prescription strength with custom cosmetic bases. However, they often suffer from the "worst of both worlds":
+- *Lack of Stability Testing:* Unlike mass-produced drugs, custom mixes aren't tested to ensure the retinoid doesn't degrade (tretinoin is highly unstable).
+- *Lack of Efficacy Testing:* The base vehicle may not effectively deliver the drug to the right skin depth.
+- *Short Expiry:* Often 3-4 months vs 12+ months for approved products.
