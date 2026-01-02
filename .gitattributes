@@ -1,0 +1,10 @@
+# Handle line endings automatically for every text file
+* text=auto eol=lf
+
+# Explicitly mark files for GitHub Linguist/Highlighting
+*.typ linguist-language=typst
+*.ps1 linguist-language=powershell
+*.md linguist-language=markdown
+
+# Ensure batch script stays executable-friendly
+batch_compile.ps1 text eol=crlf
