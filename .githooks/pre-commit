@@ -1,0 +1,31 @@
+#!/bin/sh
+# Typst Pre-commit Hook
+
+# 获取已暂存（staged）的 .typ 文件
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.typ$')
+
+if [ -z "$STAGED_FILES" ]; then
+    exit 0
+fi
+
+echo "🔍 Validating Typst files..."
+FAILED=0
+
+for FILE in $STAGED_FILES; do
+    # 尝试模拟编译，检查是否有语法错误
+    # 如果 typst 无法编译，会返回非零状态码
+    if ! typst compile "$FILE" --pdf-standard 1.7 /dev/null > /dev/null 2>&1; then
+        echo "❌ Syntax Error in: $FILE"
+        # 再次运行以向用户显示具体的报错内容
+        typst compile "$FILE" --pdf-standard 1.7 /dev/null
+        FAILED=1
+    fi
+done
+
+if [ $FAILED -ne 0 ]; then
+    echo "🛑 Push blocked: Fix the Typst errors above and try again."
+    exit 1
+fi
+
+echo "✅ All Typst files passed."
+exit 0
