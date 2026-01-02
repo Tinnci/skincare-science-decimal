@@ -21,8 +21,37 @@ for FILE in $STAGED_FILES; do
     fi
 done
 
+echo "🔄 Checking Bilingual Sync (Drift Detection)..."
+for FILE in $STAGED_FILES; do
+    # 检查是否为中英文配对文件
+    PARTNER=""
+    if [[ "$FILE" == *"_zh.typ" ]]; then
+        PARTNER="${FILE%_zh.typ}.typ"
+    elif [[ "$FILE" == *.typ ]]; then
+        PARTNER="${FILE%.typ}_zh.typ"
+    fi
+
+    # 如果配对文件存在但在本次提交中缺失
+    if [ -f "$PARTNER" ]; then
+        if ! echo "$STAGED_FILES" | grep -q "$PARTNER"; then
+            # 比较磁盘修改时间 (仅作参考，因为 Git 不存时间)
+            FILE_TIME=$(date -r "$FILE" +%s)
+            PARTNER_TIME=$(date -r "$PARTNER" +%s)
+            DIFF=$((FILE_TIME - PARTNER_TIME))
+            ABS_DIFF=${DIFF#-} # 取绝对值
+
+            # 如果时间差超过 3600 秒 (1小时)
+            if [ $ABS_DIFF -gt 3600 ]; then
+                echo "⚠️  [Warning] Bilingual Drift detected: $FILE was updated, but $PARTNER seems stale (diff > 1h)."
+                echo "   If this is intentional, you can bypass with 'git commit --no-verify'."
+                # 设置为警告而非强制报错，你可以根据需要改为 exit 1
+            fi
+        fi
+    fi
+done
+
 if [ $FAILED -ne 0 ]; then
-    echo "🛑 Push blocked: Fix the Typst errors above and try again."
+    echo "🛑 Commit blocked: Fix the Typst errors above and try again."
     exit 1
 fi
 
