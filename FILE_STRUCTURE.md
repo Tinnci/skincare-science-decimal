@@ -19,6 +19,11 @@ Focuses on the biochemical properties, mechanisms, and classifications of skinca
   - 12.03 Derivatives: ATIP vs. THDA
   - 12.04 Industry Context: Science-Washing Case Study
 
+- **13 Niacinamide**
+  - 13.01 Mechanism of Action & Benefits
+  - 13.02 Concentration & Myths (Vitamin C Compatibility)
+  - 13.03 Product Analysis: The Risk of 100% Powders
+
 ### [20-29] Skin Concerns
 Focuses on specific skin conditions and the theoretical approaches to treating them.
 - **21 Hyperpigmentation**
