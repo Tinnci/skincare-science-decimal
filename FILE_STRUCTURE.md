@@ -13,6 +13,12 @@ Focuses on the biochemical properties, mechanisms, and classifications of skinca
   - 11.04 Industry Context: Why Cosmetics Aren't "Drugs"
   - 11.05 Evaluation Framework: The Lab Muffin Matrix
 
+- **12 Vitamin C**
+  - 12.01 Mechanism of Action: Ascorbic Acid
+  - 12.02 Formulation & Stability: The Challenge
+  - 12.03 Derivatives: ATIP vs. THDA
+  - 12.04 Industry Context: Science-Washing Case Study
+
 ### [20-29] Skin Concerns
 Focuses on specific skin conditions and the theoretical approaches to treating them.
 - **21 Hyperpigmentation**
