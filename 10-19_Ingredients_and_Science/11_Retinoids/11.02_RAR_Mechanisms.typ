@@ -17,12 +17,16 @@ There are three primary subtypes of RARs located in the skin:
 
 == Receptor Selectivity of Common Retinoids
 
-| Retinoid | Receptor Affinity | Clinical Focus |
-| :--- | :--- | :--- |
-| *Tretinoin* | Pan-agonist (α, β, γ) | General anti-aging, acne |
-| *Adapalene* | Selective (β, γ) | Acne, comedolysis |
-| *Tazarotene* | Selective (β, γ) | Psoriasis, Hyperpigmentation |
-| *Trifarotene* | Highly Selective (γ) | Acne, Truncal acne |
+#table(
+  columns: (1fr, 1fr, 1.5fr),
+  inset: 10pt,
+  align: horizon,
+  [*Retinoid*], [*Receptor Affinity*], [*Clinical Focus*],
+  [Tretinoin], [Pan-agonist (α, β, γ)], [General anti-aging, acne],
+  [Adapalene], [Selective (β, γ)], [Acne, comedolysis],
+  [Tazarotene], [Selective (β, γ)], [Psoriasis, Hyperpigmentation],
+  [Trifarotene], [Highly Selective (γ)], [Acne, Truncal acne]
+)
 
 == Association with Hyperpigmentation
 

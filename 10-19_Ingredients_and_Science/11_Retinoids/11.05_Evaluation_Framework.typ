@@ -25,12 +25,15 @@ To determine if a skincare product is a "scam" or "science," Dr. Michelle Wong (
 
 == Levels of Evidence for Retinol
 
-| Type of Evidence | Confidence Level | Examples |
-| :--- | :--- | :--- |
-| *Mechanistic* | Very High | Conversion Path: Retinol -> Retinal -> Tretinoin |
-| *Biological Markers* | High | Increased Collagen, CRABP-II mRNA, EGF activation |
-| *Clinical (Small N)* | Moderate | J&J study ($N=40$), double-blind, placebo-controlled |
-| *Clinical (Large N)* | Low (Sparse) | Very few large-scale cosmetic trials exist |
+#table(
+  columns: (auto, auto, 1fr),
+  inset: 10pt,
+  [*Type of Evidence*], [*Confidence Level*], [*Examples*],
+  [Mechanistic], [Very High], [Conversion Path: Retinol -> Retinal -> Tretinoin],
+  [Biological Markers], [High], [Increased Collagen, CRABP-II mRNA, EGF activation],
+  [Clinical (Small N)], [Moderate], [J&J study ($N=40$), double-blind, placebo-controlled],
+  [Clinical (Large N)], [Low (Sparse)], [Very few large-scale cosmetic trials exist]
+)
 
 == Practical Conclusion
 

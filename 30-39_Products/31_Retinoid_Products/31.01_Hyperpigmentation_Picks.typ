@@ -41,9 +41,12 @@ Selecting the right retinol involves balancing potency with your skin's toleranc
 
 == Summary Recommendation Table
 
-| Product | Price Range | Strengths |
-| :--- | :--- | :--- |
-| *CeraVe* | Low | Barrier support, calming |
-| *Paula's Choice* | High | Maximum potency, anti-aging |
-| *La Roche-Posay* | Medium | Texture, hydration |
-| *Inkey List* | Low | Potency for value |
+#table(
+  columns: (1fr, 1fr, 2fr),
+  inset: 10pt,
+  [*Product*], [*Price Range*], [*Strengths*],
+  [CeraVe], [Low], [Barrier support, calming],
+  [Paula's Choice], [High], [Maximum potency, anti-aging],
+  [La Roche-Posay], [Medium], [Texture, hydration],
+  [Inkey List], [Low], [Potency for value]
+)
