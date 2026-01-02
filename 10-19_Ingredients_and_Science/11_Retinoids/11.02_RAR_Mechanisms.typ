@@ -1,13 +1,9 @@
-#set page(paper: "a4", margin: (x: 2cm, y: 2cm))
-#set text(font: "Segoe UI", size: 11pt)
+#import "../../template.typ": project
 
-#show heading: set text(fill: rgb("#2a52be"))
-
-#align(center)[
-  #text(size: 20pt, weight: "bold")[11.02 Mechanism of Action: RARs]
-]
-
-#v(1em)
+#show: project.with(
+  title: "Mechanism of Action: RARs",
+  doc_id: "11.02",
+)
 
 Retinoids exert their biological effects by binding to specific nuclear receptors. These receptors act as transcription factors, regulating the expression of genes involved in cell growth, differentiation, and apoptosis.
 
@@ -49,9 +45,3 @@ Evidence that retinol is working at the cellular level includes:
 RAR activation triggers the *Epidermal Growth Factor (EGF)* pathway. This leads to:
 - Rapid cell production in the top layers of the skin.
 - *Hyperplasia:* The clinical "peeling" or "retinoid dermatitis" (retinization) often observed when starting retinoids. This is a unique side effect linked directly to the retinoid mechanism.
-
-#v(2em)
-#line(length: 100%, stroke: 0.5pt + gray)
-#text(size: 8pt, fill: gray)[
-  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
-]

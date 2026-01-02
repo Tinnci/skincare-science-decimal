@@ -1,13 +1,9 @@
-#set page(paper: "a4", margin: (x: 2cm, y: 2cm))
-#set text(font: "Segoe UI", size: 11pt)
+#import "../../template.typ": project
 
-#show heading: set text(fill: rgb("#2a52be"))
-
-#align(center)[
-  #text(size: 20pt, weight: "bold")[31.01 Best Retinols for Hyperpigmentation]
-]
-
-#v(1em)
+#show: project.with(
+  title: "Best Retinols for Hyperpigmentation",
+  doc_id: "31.01",
+)
 
 Selecting the right retinol involves balancing potency with your skin's tolerance level. The following products are top-rated for targeting dark spots and uneven skin tone.
 
@@ -51,9 +47,3 @@ Selecting the right retinol involves balancing potency with your skin's toleranc
 | *Paula's Choice* | High | Maximum potency, anti-aging |
 | *La Roche-Posay* | Medium | Texture, hydration |
 | *Inkey List* | Low | Potency for value |
-
-#v(2em)
-#line(length: 100%, stroke: 0.5pt + gray)
-#text(size: 8pt, fill: gray)[
-  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
-]

@@ -1,13 +1,9 @@
-#set page(paper: "a4", margin: (x: 2cm, y: 2cm))
-#set text(font: "Segoe UI", size: 11pt)
+#import "../../template.typ": project
 
-#show heading: set text(fill: rgb("#2a52be"))
-
-#align(center)[
-  #text(size: 20pt, weight: "bold")[11.03 Clinical Efficacy: Comparison]
-]
-
-#v(1em)
+#show: project.with(
+  title: "Clinical Efficacy: Comparison",
+  doc_id: "11.03",
+)
 
 Clinical trials provide the "gold standard" evidence for the effectiveness of different retinoids. For hyperpigmentation, the efficacy depends on potency and the skin's ability to convert the molecule into retinoic acid.
 
@@ -42,9 +38,3 @@ When evaluating Retinol studies, it is important to consider common limitations:
 1. *Consistency:* Results take weeks or even months.
 2. *Sun Protection:* Retinoids increase photosensitivity. Daily SPF is non-negotiable.
 3. *Adjuvant Actives:* Look for formulas with Niacinamide, Vitamin C, or Licorice Root.
-
-#v(2em)
-#line(length: 100%, stroke: 0.5pt + gray)
-#text(size: 8pt, fill: gray)[
-  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
-]

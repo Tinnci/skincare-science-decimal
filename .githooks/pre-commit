@@ -13,10 +13,10 @@ FAILED=0
 
 for FILE in $STAGED_FILES; do
     # 尝试模拟编译，显式指定输出格式为 pdf 并重定向到空设备
-    if ! typst compile "$FILE" --pdf-standard 1.7 -f pdf - > /dev/null 2>&1; then
+    if ! typst compile "$FILE" --pdf-standard 1.7 -f pdf - --root . > /dev/null 2>&1; then
         echo "❌ Syntax Error in: $FILE"
         # 再次运行以显示错误
-        typst compile "$FILE" --pdf-standard 1.7 -f pdf -
+        typst compile "$FILE" --pdf-standard 1.7 -f pdf - --root .
         FAILED=1
     fi
 done

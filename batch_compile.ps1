@@ -7,8 +7,8 @@ foreach ($file in $typFiles) {
     $outputPath = $file.FullName.Replace(".typ", ".pdf")
     Write-Host "Compiling: $($file.Name) -> $($file.BaseName).pdf" -ForegroundColor Yellow
     
-    # Run typst compile
-    & typst compile $file.FullName $outputPath
+    # Run typst compile with project root set to current directory
+    & typst compile $file.FullName $outputPath --root .
     
     if ($LASTEXITCODE -eq 0) {
         Write-Host "Successfully compiled $($file.Name)" -ForegroundColor Green
