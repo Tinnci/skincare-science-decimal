@@ -11,24 +11,24 @@ Hyperpigmentation is a common skin concern characterized by the darkening of an 
 
 The production of pigment (melanin) occurs in specialized cells called *melanocytes* via a process called melanogenesis:
 
-1. **Activation:** UV radiation, inflammation (PIH), or hormonal changes stimulate melanocytes.
-2. **Synthesis:** The enzyme *Tyrosinase* converts the amino acid tyrosine into precursors of melanin. This is the rate-limiting step.
-3. **Transfer:** Melanin is packaged into specialized vesicles called *melanosomes*.
-4. **Distribution:** Melanosomes are transferred along dendrites into neighboring *keratinocytes* (skin cells), where they form a protective "cap" over the cell nucleus.
+1. *Activation:* UV radiation, inflammation (PIH), or hormonal changes stimulate melanocytes.
+2. *Synthesis:* The enzyme *Tyrosinase* converts the amino acid tyrosine into precursors of melanin. This is the rate-limiting step.
+3. *Transfer:* Melanin is packaged into specialized vesicles called *melanosomes*.
+4. *Distribution:* Melanosomes are transferred along dendrites into neighboring *keratinocytes* (skin cells), where they form a protective "cap" over the cell nucleus.
 
 == Common Types of Hyperpigmentation
 
-- **Post-Inflammatory Hyperpigmentation (PIH):** Dark spots left after an inflammatory injury (e.g., acne).
-- **Melasma:** Larger patches of pigment, often symmetrical, strongly influenced by hormonal factors and heat.
-- **Solar Lentigines (Sun Spots):** Discrete spots caused by chronic UV exposure and photoaging.
+- *Post-Inflammatory Hyperpigmentation (PIH):* Dark spots left after an inflammatory injury (e.g., acne).
+- *Melasma:* Larger patches of pigment, often symmetrical, strongly influenced by hormonal factors and heat.
+- *Solar Lentigines (Sun Spots):* Discrete spots caused by chronic UV exposure and photoaging.
 
 == The Four Pillars of Treatment
 
 To effectively treat hyperpigmentation, a multi-pronged approach targeting different stages of the pathway is required:
 
 === 1. Prevention & Protection
-- **Sunscreen:** Non-negotiable. UV is the primary trigger for melanogenesis.
-- **Antioxidants:** Neutralize free radicals that trigger inflammation and pigment signaling.
+- *Sunscreen:* Non-negotiable. UV is the primary trigger for melanogenesis.
+- *Antioxidants:* Neutralize free radicals that trigger inflammation and pigment signaling.
 
 === 2. Tyrosinase Inhibition (The Chemists' Approach)
 Stopping the production of new pigment at the source.
