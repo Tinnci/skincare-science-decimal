@@ -1,0 +1,9 @@
+# Typst artifacts
+*.pdf
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# PowerShell
+*.log
