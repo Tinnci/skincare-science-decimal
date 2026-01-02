@@ -33,3 +33,9 @@ Critics often claim "retinol doesn't work" because peer-reviewed, double-blind, 
 - *Scientific Reasoning:* We understand the pharmacology (prodrug conversion).
 - *Extrapolation:* If it works in vitro and ex vivo, and produces the same molecular markers as the drug version, it likely works on the face.
 - *Mechanistic Evidence:* The specific side effect "retinization" is a physical proof of receptor activation.
+
+#v(2em)
+#line(length: 100%, stroke: 0.5pt + gray)
+#text(size: 8pt, fill: gray)[
+  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
+]

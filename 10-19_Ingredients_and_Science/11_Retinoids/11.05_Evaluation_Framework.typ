@@ -39,3 +39,9 @@ To determine if a skincare product is a "scam" or "science," Dr. Michelle Wong (
 == Practical Conclusion
 
 It is unscientific to claim an ingredient "doesn't work" simply because it lacks large-scale medical-grade trials. For retinol, the combination of *pharmacological mechanism*, *biopsy data*, and *consistent small-scale trials* builds a compelling case for its efficacy in treating photoaging and hyperpigmentation.
+
+#v(2em)
+#line(length: 100%, stroke: 0.5pt + gray)
+#text(size: 8pt, fill: gray)[
+  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
+]

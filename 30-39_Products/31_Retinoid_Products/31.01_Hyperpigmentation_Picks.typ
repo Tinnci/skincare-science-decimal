@@ -51,3 +51,9 @@ Selecting the right retinol involves balancing potency with your skin's toleranc
 | *Paula's Choice* | High | Maximum potency, anti-aging |
 | *La Roche-Posay* | Medium | Texture, hydration |
 | *Inkey List* | Low | Potency for value |
+
+#v(2em)
+#line(length: 100%, stroke: 0.5pt + gray)
+#text(size: 8pt, fill: gray)[
+  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
+]

@@ -49,3 +49,9 @@ Evidence that retinol is working at the cellular level includes:
 RAR activation triggers the *Epidermal Growth Factor (EGF)* pathway. This leads to:
 - Rapid cell production in the top layers of the skin.
 - *Hyperplasia:* The clinical "peeling" or "retinoid dermatitis" (retinization) often observed when starting retinoids. This is a unique side effect linked directly to the retinoid mechanism.
+
+#v(2em)
+#line(length: 100%, stroke: 0.5pt + gray)
+#text(size: 8pt, fill: gray)[
+  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
+]

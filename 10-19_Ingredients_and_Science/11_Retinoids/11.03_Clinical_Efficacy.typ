@@ -42,3 +42,9 @@ When evaluating Retinol studies, it is important to consider common limitations:
 1. *Consistency:* Results take weeks or even months.
 2. *Sun Protection:* Retinoids increase photosensitivity. Daily SPF is non-negotiable.
 3. *Adjuvant Actives:* Look for formulas with Niacinamide, Vitamin C, or Licorice Root.
+
+#v(2em)
+#line(length: 100%, stroke: 0.5pt + gray)
+#text(size: 8pt, fill: gray)[
+  *Disclaimer:* This document is a personal study note and interpretation of scientific literature. It may contain inaccuracies or misinformation. This is NOT medical advice. Always consult a dermatologist or professional doctor for skin concerns. Refer to primary peer-reviewed research for authoritative data.
+]

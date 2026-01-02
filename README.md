@@ -1,6 +1,12 @@
 # Skincare Science Knowledge Base
 
-A scientifically-grounded, structured repository of skincare knowledge, research, and product analysis.
+> [!CAUTION]
+> **MEDICAL & ACCURACY DISCLAIMER**: This repository is a collection of **personal interpretations** of scientific literature and skincare science. It is **NOT** medical advice. The author is not a medical professional.
+
+## ⚠️ High-Level Disclaimer
+1. **Subjectivity & Potential Misinformation**: The summaries herein reflect the author's personal understanding and synthesis of third-party research. There is a inherent risk of **misinterpretation or misinformation**.
+2. **Not Medical Advice**: Use this information at your own risk. For any skin conditions, medical concerns, or treatment plans, **consult a licensed dermatologist or medical doctor**.
+3. **Verify with Primary Sources**: Do not rely on this knowledge base for health decisions. Always refer to the original peer-reviewed papers and primary scientific data cited within for the most accurate information.
 
 ## 🌟 Highlights
 - **Evidence-Led**: Focused on clinical trials, biochemical mechanisms, and pharmacological evidence (inspired by Lab Muffin Beauty Science).
